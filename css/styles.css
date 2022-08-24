@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+header
+{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454342;
+}
+header h1
+{
+    font-size: 2.5em;
+    color: #fff;
+}
+main
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right ,#18acfe, #0166e1);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+main form
+{
+    margin-top: 3%;
+    width: 35%;
+    height: 75vh;
+    background-color: #383c42;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 2.5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form .input-container
+{
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form .input-container input
+{
+    width: 60%;
+    height: 30px;
+    padding: 8px 80px;
+    outline: 0;
+    border: 0;
+    border-radius: 9px;
+    font-size: 12px;
+    color:#312e42;
+    box-shadow:  0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+main form .input-container input:focus
+{
+    box-shadow: inset  2px 2px 3px rgba(8, 8, 8, 0.5);
+}
+main form .password-container
+{
+    margin-top: 4%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form .password-container i
+{
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    color: #777;
+    cursor: pointer;
+}
+main form .password-container  #eye
+{
+    display: none;
+}
+main form .password-infos
+{
+    width: 70%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main form .password-infos a
+{
+    transition: 0.2s ease-in-out;
+}
+main form .password-infos a:hover
+{
+    color: #18acfe;
+}
+main form button
+{
+    width: 60%;
+    height: 30px;
+    background: linear-gradient(to right ,#18acfe, #0166e1);
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    margin-top: 80px;
+    cursor: pointer;
+}
