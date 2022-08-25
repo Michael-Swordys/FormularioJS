@@ -108,6 +108,89 @@ main form button
     border-radius: 5px;
     outline: 0;
     border: 0;
-    margin-top: 80px;
+    margin-top: 70px;
     cursor: pointer;
+    font-weight: 600;
+    transition: 0.9s ease-in-out;
+}
+main form button:hover
+{
+    background: #fff;
+    color: #18acfe;
+}
+main form .links-container
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+main form .links-container span
+{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+main form .links-container aside
+{
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main form .links-container aside i
+{
+    height: 40px;
+    font-size: 1.4rem;
+    width: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+main form .links-container aside i:hover
+{
+    color: #fff;
+}
+
+main form .links-container aside .google
+{
+    color: #db4a39 ;
+}
+main form .links-container aside .linkedin
+{
+    color: #0e76a8 ;
+}
+main form .links-container aside .facebook
+{
+    color: #4267B2;
+}
+main form footer 
+{
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: #58595a;
+    height: 0.5px;
+    border-radius: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main form footer hr
+{
+    width: 100%;
+    color: #18acfe;
+}
+main form footer span
+{
+    margin-top: 3rem;
+}
+main form footer a
+{
+    color: #9c9ea0;
+    font-size: 17.5px;
+    transition: 0.3s ease-in-out;
+}
+main form footer a:hover
+{
+    color: #fff;
 }
