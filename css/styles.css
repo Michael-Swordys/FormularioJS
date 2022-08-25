@@ -46,6 +46,7 @@ main form .input-container
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 main form .input-container input
 {
