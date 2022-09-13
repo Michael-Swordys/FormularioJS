@@ -11,14 +11,18 @@
 </head>
 <body>
     <header>
-        <h1>Login</h1>
+        <h1>Formulario</h1>
+        <img src="images/img.png"/>
     </header>
 
     <main>
         <form>
             <section class="input-container">
-                <input type="email" placeholder="exemple@gmail.com">
-
+                <input type="text" placeholder="Digite seu nome" required>
+                <input type="text" placeholder="Telefone" required>
+                <input type="text" placeholder="Mensagem" required minlength="10">
+                <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" placeholder="exemple@gmail.com" required/>
+                <span id="error-email"></span>
                 <div class="password-container">
                     <input type="password" id="filter-password" class="filter-password" placeholder="**********">
                     <i class="fa-solid fa-eye" id="eye" onclick=ShowPassword()></i>
@@ -34,21 +38,8 @@
                 <a href="#">Esqueceu a Senha?</a>
             </section>
 
-            <button id="btn-login">Login</button>
+            <button id="btn-login" type="submit">Login</button>
 
-            <section class="links-container">
-                <span>Ou entre com</span>
-                <aside>
-                    <a href="#"><i class="fa-brands fa-google google"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
-                </aside>
-            </section>
-
-            <footer>
-                <hr>
-                <span> Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
-            </footer>
         </form>        
     </main>
 </body>
